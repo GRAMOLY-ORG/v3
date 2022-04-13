@@ -1,4 +1,4 @@
-### GRAMOLY Site v3
+# GRAMOLY Site v3
 
 ## Getting Started
 
