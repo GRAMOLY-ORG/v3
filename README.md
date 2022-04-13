@@ -1,12 +1,13 @@
 # GRAMOLY Site v3
 
-## Getting Started
 
-First, run the development server:
+Run the site locally 
 
 ```bash
-npm run dev
-# or
+yarn 
+```
+
+```bash
 yarn dev
 ```
 
