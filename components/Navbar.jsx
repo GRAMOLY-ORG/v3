@@ -25,13 +25,14 @@ const navbar = () => {
 
 
 
+
   return (
     <>
       <nav
         className={
           color
-            ? "flex flex-wrap p-1 items-center fixed w-full  bg-lime gap-5 text-xl "
-            : "flex flex-wrap p-1 items-center fixed w-full bg-transparent gap-5 text-xl "
+            ? "flex flex-wrap p-1 fixed w-full items-center backdrop-blur-[8px] bg-white bg-opacity-70 gap-5 text-xl "
+            : "flex flex-wrap p-1 fixed w-full items-center bg-transparent  gap-5 text-xl "
         }
       >
           
@@ -73,7 +74,7 @@ const navbar = () => {
             </svg>
           </Link>
           <Link href="/">
-          <span className='text-2xl text-black font-bold uppercase tracking-wide'>
+          <span className='text-2xl text-black cursor-pointer font-bold uppercase tracking-wide link-underline link-underline-black rounded underline-offset-1'>
               gram
           </span>
           </Link>
@@ -98,36 +99,33 @@ const navbar = () => {
         </button>
 
 
-          <div
-          className={`${
-            active ? '' : 'hidden'
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+          <div className={`${active ? '' : 'hidden'}   w-full  lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
             <Link href='/'>
-              <p className='lg:inline-flex lg:w-auto w-full cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-2  '>
-                Discord
-              </p>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1 '>
+                discord
+              </span>
             </Link>
             <Link href='/'>
-              <p className='lg:inline-flex lg:w-auto w-full cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-2 '>
-                Events
-              </p>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+                events
+              </span>
             </Link>
             <Link href='/'>
-              <p className='lg:inline-flex lg:w-auto w-full cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-2 '>
-                Contact
-              </p>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+                challenges
+              </span>
             </Link>
             <Link href='/'>
-              <p className='lg:inline-flex lg:w-auto w-full cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-2 '>
-                About
-              </p>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+                about
+              </span>
             </Link>
             <Link href='/'>
-              <p className='lg:inline-flex lg:w-auto w-full cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-2 '>
-                Contact
-              </p>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+                contact
+              </span>
             </Link>
           </div>
         </div>
