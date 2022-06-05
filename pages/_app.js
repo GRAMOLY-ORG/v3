@@ -6,7 +6,7 @@ import "@fontsource/lexend-exa/variable.css";
 
 function MyApp({ Component, pageProps }) {
   return <>
-  <Navbar />
+  <Navbar /> 
   <Component {...pageProps} />
   </>
 }

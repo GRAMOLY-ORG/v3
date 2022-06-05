@@ -31,8 +31,8 @@ const navbar = () => {
       <nav
         className={
           color
-            ? "flex flex-wrap p-1 fixed w-full items-center backdrop-blur-[8px] bg-white bg-opacity-70 gap-5 text-xl "
-            : "flex flex-wrap p-1 fixed w-full items-center bg-transparent  gap-5 text-xl "
+            ? "flex flex-wrap p-1 fixed w-full items-center backdrop-blur-[20px] z-[500]  bg-white bg-opacity-70 shadow-sm gap-5 text-xl "
+            : "flex flex-wrap p-1 fixed w-full items-center bg-transparent z-[500] gap-5 text-xl "
         }
       >
           

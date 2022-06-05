@@ -24,3 +24,9 @@
 		background-size: 100% 3px;
 		background-position: 0 100%
 	}
+
+
+	.shapes1 {
+		
+		z-index: -500;
+	}
