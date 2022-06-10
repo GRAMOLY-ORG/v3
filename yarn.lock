@@ -32,11 +32,6 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lexend-exa@^4.5.10":
-  version "4.5.10"
-  resolved "https://registry.yarnpkg.com/@fontsource/lexend-exa/-/lexend-exa-4.5.10.tgz#47ff083c5b8ca7894a62a6aad371bf5c49d56fef"
-  integrity sha512-GLfMmsttINx1AVQU2wCEk8KiImqussmg4VKWvDV2QM/nBJKj4OeSDX2NmmThQHA+eQgbGDOBPEMZ+tlL5E+T8g==
-
 "@fontsource/lexend@^4.5.10":
   version "4.5.10"
   resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.5.10.tgz#a2ec4a7c251bf0162b6fdf9cad480c54587daabe"

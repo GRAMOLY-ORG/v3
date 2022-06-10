@@ -28,18 +28,22 @@ const navbar = () => {
 
   return (
     <>
-      <nav
+      <header
         className={
           color
-            ? "flex flex-wrap p-1 fixed w-full items-center backdrop-blur-[20px] z-[500]  bg-white bg-opacity-70 shadow-sm gap-5 text-xl "
-            : "flex flex-wrap p-1 fixed w-full items-center bg-transparent z-[500] gap-5 text-xl "
+            ? "flex flex-row fixed mb-5 flex-wrap p-1  w-full items-center backdrop-blur-[30px]  z-[500]  bg-white bg-opacity-70 shadow-sm gap-5 text-xl "
+            : "flex flex-row flex-wrap p-1 fixed w-full items-center bg-transparent  z-[500] gap-5 text-xl "
         }
       >
+
+
+
+
           
           <Link href="/">
-            <svg  className="lg:ml-10 cursor-pointer"
-              width="40"
-              height="40"
+            <svg  className="lg:ml-10 cursor-pointer self-center"
+              width="35"
+              height="35"
               viewBox="0 0 68 68"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -74,12 +78,12 @@ const navbar = () => {
             </svg>
           </Link>
           <Link href="/">
-          <span className='text-2xl text-black cursor-pointer font-bold uppercase tracking-wide link-underline link-underline-black rounded underline-offset-1'>
+          <span className='text-lg text-darkblue cursor-pointer font-bold uppercase tracking-wide hover:opacity-60 rounded underline-offset-1 self-center'>
               gram
           </span>
           </Link>
           <button
-          className=' inline-flex p-3 rounded lg:hidden text-black ml-auto outline-none'
+          className=' inline-flex rounded lg:hidden text-darkblue ml-auto outline-none'
           onClick={handleClick}
         >
           <svg
@@ -101,29 +105,29 @@ const navbar = () => {
 
           <div className={`${active ? '' : 'hidden'}   w-full  lg:inline-flex lg:flex-grow lg:w-auto`}
         >
-          <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
+          <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto '>
             <Link href='/'>
-              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1 '>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1 '>
                 discord
               </span>
             </Link>
             <Link href='/'>
-              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1'>
                 events
               </span>
             </Link>
-            <Link href='/'>
-              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+            <Link href='/challenges'>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1'>
                 challenges
               </span>
             </Link>
             <Link href='/'>
-              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1'>
                 about
               </span>
             </Link>
             <Link href='/'>
-              <span className='lg:inline-flex lg:w-auto cursor-pointer px-3 py-2 rounded text-black font-bold items-center justify-center link-underline link-underline-black underline-offset-1'>
+              <span className='lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1'>
                 contact
               </span>
             </Link>
@@ -131,7 +135,7 @@ const navbar = () => {
         </div>
 
 
-      </nav>
+      </header>
     </>
   );
 };

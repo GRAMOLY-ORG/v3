@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -14,7 +16,7 @@ module.exports = {
         sky : "#54c1ff"
       },
       fontFamily: {
-        sans: ['Lexend ExaVariable'], 
+        sans: ['"Lexend Exa"', ...defaultTheme.fontFamily.sans], 
       },
     },
   },
