@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 const landing = () => {
   return (
     <>
-      <div className="flex flex-col sm:flex-row h-screen justify-center sm:justify-evenly items-center md:p-3">
+      <div className="flex flex-col sm:flex-row h-screen justify-center pt-20 sm:pt-0 sm:justify-evenly items-center md:p-3">
         <div className="flex flex-col items-center align-center sm:justify-start text-center sm:text-left">
           <h1 className="text-[5rem] sm:text-[6rem] md:text-[7rem] lg:text-[11rem] sm:-ml-3 md:-ml-2 sm:self-start lg:-ml-3 font-[800] -mb-5 ">
             GRAM
