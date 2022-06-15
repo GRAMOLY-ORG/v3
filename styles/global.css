@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+root, html, body {
+  text-rendering: optimizeLegibility;
+  font-smooth: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
 .link-underline {
   text-decoration: none;
   padding-bottom: 3px;

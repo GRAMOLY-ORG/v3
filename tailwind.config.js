@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -7,20 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        desktop: '1200px',
+        tablet: '728px',
+        mobile: '320px'
+      },
       colors: {
         darkblue: "#022b3a",
         blue: "#1f7a8c",
         lightblue: "#bfdbf7",
-        lime : "#73fcea",
-        white : "#ffffff",
-        sky : "#54c1ff"
+        lime: "#73fcea",
+        white: "#ffffff",
+        sky: "#54c1ff",
       },
       fontFamily: {
-        sans: ['"Lexend Exa"', ...defaultTheme.fontFamily.sans], 
+        sans: ['"Lexend Exa"', ...defaultTheme.fontFamily.sans],
       },
     },
   },
   plugins: [],
-}
+};
 
 // , '-apple-system', 'BlinkMacSystemFont', 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', 'sans-serif'
