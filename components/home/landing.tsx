@@ -25,7 +25,7 @@ const landing = () => {
           <Lottie
             animationData={Chemistry}
             style={{}}
-            loop="true"
+            loop={true}
           />
         </div>
       </div>
