@@ -21,7 +21,7 @@ const landing = () => {
             </button>
           </div>
         </div>
-        <div className="w-52 pt-5 md:w-[19rem] lg:w-[25rem]">
+        <div className="w-52 pt-5 md:w-[19rem] lg:w-[27rem]">
           <Lottie
             animationData={Chemistry}
             style={{}}
