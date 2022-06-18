@@ -18,12 +18,12 @@ const landing = () => {
             guest speakers.
           </p>
           <div className="flex flex-col md:flex-row gap-2 self-center md:self-start">
-            <button className="text-sm lg:text-base bg-darkblue text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-white">
+            <button className="text-sm lg:text-base bg-darkblue text-center py-2 w-[12rem] lg:w-[13rem] rounded-sm text-white">
               <Link href="https://gramoly.org/discord" target="_blank">
                 Join the Discord
               </Link>
             </button>
-            <button className="text-sm lg:text-base bg-white text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-darkblue border-darkblue border">
+            <button className="text-sm lg:text-base bg-white text-center py-2 w-[12rem] lg:w-[13rem] rounded-sm text-darkblue border-darkblue border">
               <Link href="https://youtube.com/gramoly" target="_blank">
                 Check out YouTube
               </Link>
