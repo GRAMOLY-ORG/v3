@@ -1,36 +1,40 @@
 import Chemistry from "../../public/lottie/chemistry.json";
 import Lottie from "lottie-react";
+import Link from "next/link";
 
 const landing = () => {
   return (
     <>
-      <div className="flex flex-col sm:flex-row h-screen justify-center pt-20 sm:pt-0 sm:justify-evenly items-center md:p-3">
-        <div className="flex flex-col items-center align-center sm:justify-start text-center sm:text-left">
-          <h1 className="text-[5rem] sm:text-[6rem] md:text-[7rem] lg:text-[8rem] sm:-ml-3 md:-ml-2 sm:self-start lg:-ml-3 font-[800] -mb-5  text-darkblue">
-            GRAM
+      <div className="flex flex-col md:flex-row h-full md:h-screen items-center justify-evenly md:justify-around px-5 p-16">
+        <div className="flex flex-col gap-y-4 ">
+          <h1 className="text-darkblue text-center md:text-left font-[600] text-[2rem] md:text-[2.2rem] lg:text-[2.5rem]">
+            Bringing STEM to <br /> the World.
           </h1>
-          <h2 className="text-[1.5rem] md:text-[1.7rem] lg:text-[1.9rem] shrink font-[500] self-center sm:self-start text-darkblue sm:mb-7">
-            Bringing STEM to <br />the World.
-          </h2>
-          <div className="flex flex-col space-evenly justify-center self-center scale-90 sm:scale-100 sm:justify-start md:flex-row sm:self-start  gap-x-4">
-            <button className="bg-sky text-white w-[12rem] p-2 md font-bold rounded-[5px] border-sky transition ease-in-out  hover:scale-105 shadow-md">
-              Join the Discord
+          <p className="text-darkblue opacity-80 text-center md:text-left  w-[26rem] lg:w-[32rem] lg:pb-2 text-sm md:text-lg">
+            GRAM is a not-for-profit and volunteer-based initiative to raise
+            awareness towards various STEM fields. We Intend to do this through
+            various events like podcasts, webinars, and contests. We are known
+            for our vast community of over achieving students and phenomenal
+            guest speakers.
+          </p>
+          <div className="flex flex-col md:flex-row gap-2 self-center md:self-start">
+            <button className="text-sm lg:text-lg bg-darkblue text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-white">
+              <Link href="https://gramoly.org/discord" target="_blank">
+                Join the Discord
+              </Link>
             </button>
-            <button className="bg-white text-sky w-[12rem] border-sky border-2  mt-3 md:mt-0 p-2 font-bold rounded-[5px] hover:scale-105 shadow-md">
-              YouTube
+            <button className="text-sm lg:text-lg bg-white text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-darkblue border-darkblue border">
+              <Link href="https://youtube.com/gramoly" target="_blank">
+                Check out YouTube
+              </Link>
             </button>
           </div>
         </div>
-        <div className="w-52 pt-5 md:w-[19rem] lg:w-[27rem]">
-          <Lottie
-            animationData={Chemistry}
-            style={{}}
-            loop={true}
-          />
+        <div className="w-52 md:w-[25rem] lg:w-[27rem] pt-4">
+          <Lottie animationData={Chemistry} style={{}} loop={true} />
         </div>
       </div>
     </>
   );
 };
-
 export default landing;
