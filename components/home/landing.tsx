@@ -10,7 +10,7 @@ const landing = () => {
           <h1 className="text-darkblue text-center md:text-left font-[600] text-[2rem] md:text-[2.2rem] lg:text-[2.5rem]">
             Bringing STEM to <br /> the World.
           </h1>
-          <p className="text-darkblue opacity-80 text-center md:text-left  w-[26rem] lg:w-[32rem] lg:pb-2 text-sm md:text-lg">
+          <p className="text-darkblue opacity-80 text-center md:text-left  w-[26rem] lg:w-[32rem] lg:pb-2 text-sm md:text-base">
             GRAM is a not-for-profit and volunteer-based initiative to raise
             awareness towards various STEM fields. We Intend to do this through
             various events like podcasts, webinars, and contests. We are known
@@ -18,12 +18,12 @@ const landing = () => {
             guest speakers.
           </p>
           <div className="flex flex-col md:flex-row gap-2 self-center md:self-start">
-            <button className="text-sm lg:text-lg bg-darkblue text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-white">
+            <button className="text-sm lg:text-base bg-darkblue text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-white">
               <Link href="https://gramoly.org/discord" target="_blank">
                 Join the Discord
               </Link>
             </button>
-            <button className="text-sm lg:text-lg bg-white text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-darkblue border-darkblue border">
+            <button className="text-sm lg:text-base bg-white text-center py-2 w-[12rem] lg:w-[15rem] rounded-sm text-darkblue border-darkblue border">
               <Link href="https://youtube.com/gramoly" target="_blank">
                 Check out YouTube
               </Link>
