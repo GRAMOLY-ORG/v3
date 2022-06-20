@@ -7,10 +7,10 @@ const landing = () => {
     <>
       <div className="flex flex-col md:flex-row h-full md:h-screen items-center justify-evenly md:justify-around px-5 p-16">
         <div className="flex flex-col gap-y-4 ">
-          <h1 className="text-darkblue text-center md:text-left font-[600] text-[2rem] md:text-[2.2rem] lg:text-[2.5rem]">
+          <h1 className="text-darkblue text-center md:text-left font-[600] text-[2rem] md:text-[2.2rem] lg:text-[2.6rem] lg:leading-[3.5rem]">
             Bringing STEM to <br /> the World.
           </h1>
-          <p className="text-darkblue opacity-80 text-center md:text-left  w-[26rem] lg:w-[32rem] lg:pb-2 text-sm md:text-base">
+          <p className="text-darkblue opacity-80 text-center md:text-left px-5 md:px-0 w-[26rem] lg:w-[32rem] lg:pb-2 text-sm md:text-base">
             GRAM is a not-for-profit and volunteer-based initiative to raise
             awareness towards various STEM fields. We Intend to do this through
             various events like podcasts, webinars, and contests. We are known
@@ -31,7 +31,7 @@ const landing = () => {
           </div>
         </div>
         <div className="w-52 md:w-[25rem] lg:w-[27rem] pt-4">
-          <Lottie animationData={Chemistry} style={{}} loop={true} />
+          <Lottie animationData={Chemistry} loop={true} />
         </div>
       </div>
     </>
