@@ -5,12 +5,15 @@ import Link from "next/link";
 const landing = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row h-full md:h-screen items-center justify-evenly md:justify-around px-5 p-16">
-        <div className="flex flex-col gap-y-4 ">
-          <h1 className="text-darkblue text-center md:text-left font-[600] text-[2rem] md:text-[2.2rem] lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Bringing STEM to <br /> the World.
-          </h1>
-          <p className="text-darkblue opacity-80 text-center md:text-left px-5 md:px-0 w-[26rem] lg:w-[32rem] lg:pb-2 text-sm md:text-base">
+      <div className="flex flex-col h-screen align-middle justify-center mx-2 pt-6 items-center
+                           md:flex-row md:justify-evenly">
+        <div className="flex flex-col gap-y-3 md:justify-start md:relative ">
+          <h3 className="  text-[1.8rem] text-center text-darkblue md:text-left md:text-[3.2rem]">
+            Bringing STEM to
+            <br />
+            the world
+          </h3>
+          <p className="text-darkblue opacity-80 text-center md:text-left text-sm md:w-[400px] lg:text-lg lg:w-[600px]">
             GRAM is a not-for-profit and volunteer-based initiative to raise
             awareness towards various STEM fields. We Intend to do this through
             various events like podcasts, webinars, and contests. We are known
@@ -18,19 +21,19 @@ const landing = () => {
             guest speakers.
           </p>
           <div className="flex flex-col md:flex-row gap-2 self-center md:self-start">
-            <button className="text-sm lg:text-base bg-darkblue text-center py-2 w-[12rem] lg:w-[13rem] rounded-sm text-white">
+            <button className="text-sm lg:text-lg bg-darkblue text-center py-2 w-[12rem] lg:mt-4 lg:w-[15rem] rounded-sm text-white hover:shadow-lg">
               <Link href="https://gramoly.org/discord" target="_blank">
                 Join the Discord
               </Link>
             </button>
-            <button className="text-sm lg:text-base bg-white text-center py-2 w-[12rem] lg:w-[13rem] rounded-sm text-darkblue border-darkblue border">
+            <button className="text-sm lg:text-lg bg-white text-center py-2 w-[12rem] lg:mt-4 lg:w-[15rem] rounded-sm text-darkblue border-darkblue border hover:shadow-lg">
               <Link href="https://youtube.com/gramoly" target="_blank">
                 Check out YouTube
               </Link>
             </button>
           </div>
         </div>
-        <div className="w-52 md:w-[25rem] lg:w-[27rem] pt-4">
+        <div className="w-52 md:w-[20rem] lg:w-[27rem] pt-3">
           <Lottie animationData={Chemistry} loop={true} />
         </div>
       </div>
@@ -38,3 +41,4 @@ const landing = () => {
   );
 };
 export default landing;
+
