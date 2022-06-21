@@ -8,12 +8,12 @@ const landing = () => {
       <div className="flex flex-col h-screen align-middle justify-center mx-2 pt-6 items-center
                            md:flex-row md:justify-evenly">
         <div className="flex flex-col gap-y-3 md:justify-start md:relative ">
-          <h3 className="  text-[1.8rem] text-center text-darkblue md:text-left md:text-[3.2rem]">
+          <h4 className="text-[1.8rem] text-center text-darkblue md:text-left font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
             Bringing STEM to
             <br />
-            the world
-          </h3>
-          <p className="text-darkblue opacity-80 text-center md:text-left text-sm md:w-[400px] lg:text-lg lg:w-[600px]">
+            the world.
+          </h4>
+          <p className="text-darkblue opacity-80 text-center md:text-left md:w-[400px] text-sm lg:text-lg lg:w-[600px]">
             GRAM is a not-for-profit and volunteer-based initiative to raise
             awareness towards various STEM fields. We Intend to do this through
             various events like podcasts, webinars, and contests. We are known
