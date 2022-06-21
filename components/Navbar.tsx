@@ -68,7 +68,7 @@ const Navbar = () => {
           </svg>
         </Link>
         <Link href="/">
-          <span className="text-lg text-darkblue cursor-pointer font-bold uppercase tracking-wide hover:opacity-60 rounded underline-offset-1 self-center">
+          <span className="text-lg text-darkblue cursor-pointer font-semibold uppercase tracking-wide hover:opacity-60 rounded underline-offset-1 self-center">
             gram
           </span>
         </Link>
@@ -99,27 +99,27 @@ const Navbar = () => {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto ">
             <Link href="/">
-              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1 ">
+              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1 ">
                 discord
               </span>
             </Link>
             <Link href="/">
-              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1">
+              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue  font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 events
               </span>
             </Link>
             <Link href="/challenges">
-              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1">
+              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 challenges
               </span>
             </Link>
             <Link href="/">
-              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1">
+              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 about
               </span>
             </Link>
             <Link href="/">
-              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-bold items-center justify-center hover:opacity-60 underline-offset-1">
+              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 contact
               </span>
             </Link>
