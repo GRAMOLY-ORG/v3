@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header
+      <nav
         className={
           color
             ? "flex flex-row fixed mb-5 flex-wrap p-1  w-full items-center backdrop-blur-[30px]  z-[500]  bg-white bg-opacity-70 shadow-sm gap-5 text-xl "
@@ -125,7 +125,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-      </header>
+      </nav>
     </>
   );
 };
