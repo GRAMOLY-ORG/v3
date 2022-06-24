@@ -20,7 +20,7 @@ const discord = () => {
             Join a community of <br /> 2000+ STEM Enthusiasts.
           </div>
           <p className="text-darkblue opacity-80 text-center md:text-left text-sm lg:text-lg self-center md:self-start">
-            At gramoly's server, we discuss STEM topics, help people with
+            At gramoly&apos;s server, we discuss STEM topics, help people with
             doubts, and have friendly casual discussions on memes, music and
             more such things. We would love to have you as a part of our
             community!
