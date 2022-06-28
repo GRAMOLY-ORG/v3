@@ -4,7 +4,7 @@
 
 [GRAM](https://v3.gramoly.org) is a non-profit and volunteer-based initiative whose motive is to provide free education to the underprivileged class of students and empower them to go for STEM fields.
 
-*About this repository*
+*About this repository* <br>
 This repository contains the code of GRAMOLY's Website v3. Made using Next.JS and TailwindCSS.
 
 Run the site locally 
