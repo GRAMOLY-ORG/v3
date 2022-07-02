@@ -5,7 +5,7 @@ import Link from "next/link";
 const landing = () => {
   return (
     <>
-      <div className="flex flex-col h-screen align-middle justify-center mx-2 pt-6 items-center
+      <div className="flex flex-col h-full sm:h-screen align-middle justify-center mx-2  pt-16 sm:pt-6 items-center
                            md:flex-row md:justify-evenly">
         <div className="flex flex-col gap-y-3 md:justify-start md:relative ">
           <h4 className="text-[1.8rem] text-center text-darkblue md:text-left font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
