@@ -1,5 +1,4 @@
-import Chemistry from "../../public/lottie/chemistry.json";
-import Lottie from "lottie-react";
+import Chemistry from "../../public/images/chemistry.svg";
 import Link from "next/link";
 
 const landing = () => {
@@ -34,7 +33,7 @@ const landing = () => {
           </div>
         </div>
         <div className="w-52 md:w-[20rem] lg:w-[27rem] pt-3">
-          <Lottie animationData={Chemistry} loop={true} />
+          <Chemistry />
         </div>
       </div>
     </>

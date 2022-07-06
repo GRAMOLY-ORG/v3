@@ -1,5 +1,4 @@
-import vercel from '../public/vercel.svg';
-import Image from 'next/image';
+import Vercel from "../public/vercel.svg";
 
 const footer = () => {
   return (
@@ -7,7 +6,7 @@ const footer = () => {
       <footer className="py-7 bg-lightblue">
        <div className='flex align-center justify-center items-center align-middle w-full'>
        <a href="https://vercel.com/?utm_source=gramoly&utm_campaign=oss">
-       <Image src={vercel} alt="vercel" /> 
+       <Vercel /> 
        </a>
        </div>
       </footer>
