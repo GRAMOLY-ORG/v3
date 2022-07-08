@@ -15,11 +15,7 @@ const body = () => {
             the sea of Science.
           </h4>
           <p className="text-darkblue opacity-80 text-center md:text-left text-sm md:w-[400px] lg:text-lg lg:w-[600px]">
-            GRAM is a not-for-profit and volunteer-based initiative to raise
-            awareness towards various STEM fields. We Intend to do this through
-            various events like podcasts, webinars, and contests. We are known
-            for our vast community of over achieving students and phenomenal
-            guest speakers.
+          We organise podcasts with prominent personalities with expertise in pure sciences. Join us to delve deep into a topic of interest. Want expert guidance for a particular exam? We have got you covered! Attend our gospels with experts webinars to discuss strategies.
           </p>
         </div>
         <div className="w-52 md:w-[20rem] lg:w-[27rem] pt-3">
