@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav
         className={
           color
-            ? "flex flex-row fixed mb-5 flex-wrap p-1 py-[0.55rem]  w-full items-center backdrop-blur-[30px]  z-[500]  bg-white bg-opacity-70 shadow-sm gap-5 text-xl "
+            ? "flex flex-row fixed mb-5 flex-wrap p-1 py-[0.55rem]  w-full items-center backdrop-blur-[8px]  z-[500]  bg-white bg-opacity-50 shadow-sm gap-5 text-xl "
             : "flex flex-row flex-wrap p-1 py-[0.55rem] fixed w-full items-center bg-transparent  z-[500] gap-5 text-xl "
         }
       >
@@ -69,7 +69,7 @@ const Navbar = () => {
         </Link>
         <Link href="/">
           <span className="text-lg text-darkblue cursor-pointer font-semibold uppercase tracking-wide hover:opacity-60 rounded underline-offset-1 self-center">
-            gram
+            GRAM
           </span>
         </Link>
         <button
@@ -98,12 +98,17 @@ const Navbar = () => {
           }   w-full  lg:inline-flex lg:flex-grow lg:mr-[1rem] lg:w-auto`}
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto ">
-            <Link href="/">
+            <a href="https://gramoly.org/discord" target="_blank">
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1 ">
                 discord
               </span>
-            </Link>
-            <Link href="/">
+            </a>
+            <a href="https://youtube.com/c/gramoly" target="_blank">
+              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
+                youtube
+              </span>
+            </a>
+            <Link href="/events">
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue  font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 events
               </span>
@@ -113,14 +118,9 @@ const Navbar = () => {
                 challenges
               </span>
             </Link>
-            <Link href="/">
+            <Link href="/about">
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 about
-              </span>
-            </Link>
-            <Link href="/">
-              <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
-                contact
               </span>
             </Link>
           </div>

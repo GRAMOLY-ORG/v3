@@ -6,7 +6,7 @@ const landing = () => {
     <>
       <div className="flex flex-col h-full sm:h-screen align-middle justify-center mx-2  pt-16 sm:pt-6 items-center
                            md:flex-row md:justify-evenly">
-        <div className="flex flex-col gap-y-3 md:justify-start md:relative ">
+        <div className="flex flex-col gap-y-6 md:justify-start md:relative ">
           <h4 className="text-[1.8rem] text-center text-darkblue md:text-left font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
             Bringing STEM to
             <br />
@@ -26,9 +26,9 @@ const landing = () => {
               </Link>
             </button>
             <button className="text-sm lg:text-lg bg-white text-center py-2 w-[12rem] lg:mt-4 lg:w-[15rem] rounded-sm text-darkblue border-darkblue border hover:shadow-lg">
-              <Link href="https://youtube.com/gramoly" target="_blank">
+              <a href="https://youtube.com/gramoly" target="_blank">
                 Check out YouTube
-              </Link>
+              </a>
             </button>
           </div>
         </div>
