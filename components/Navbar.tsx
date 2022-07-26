@@ -98,12 +98,12 @@ const Navbar = () => {
           }   w-full  lg:inline-flex lg:flex-grow lg:mr-[1rem] lg:w-auto`}
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto ">
-            <a href="https://gramoly.org/discord" target="_blank">
+            <a href="https://gramoly.org/discord" target="_blank" rel="noreferrer" >
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1 ">
                 discord
               </span>
             </a>
-            <a href="https://youtube.com/c/gramoly" target="_blank">
+            <a href="https://youtube.com/c/gramoly" target="_blank" rel="noreferrer" >
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 youtube
               </span>
