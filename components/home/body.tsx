@@ -23,7 +23,7 @@ const body = () => {
             Attend our gospels with experts webinars to discuss strategies.
           </p>
           <div className="flex flex-col md:flex-row gap-2 text-sm lg:text-lg text-darkblue self-center md:self-start">
-            <a href="https://youtube.com/c/gramoly" className="cursor-pointer" target="_blank">
+            <a href="https://youtube.com/c/gramoly" className="cursor-pointer" target="_blank" rel="noreferrer" >
               <div className="flex flex-row align-baseline gap-3 opacity-80 cursor-pointer">
               <span className="flex flex-inline self-baseline hover:pr-2">
               Check on YouTube
