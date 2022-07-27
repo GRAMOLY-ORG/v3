@@ -21,9 +21,9 @@ const landing = () => {
           </p>
           <div className="flex flex-col md:flex-row gap-2 self-center md:self-start">
             <button className="text-sm lg:text-lg bg-darkblue text-center py-2 w-[12rem] lg:mt-4 lg:w-[15rem] rounded-sm text-white hover:shadow-lg">
-              <Link href="https://gramoly.org/discord" target="_blank" rel="noreferrer" >
+              <a href="https://gramoly.org/discord" target="_blank" rel="noreferrer" >
                 Join the Discord
-              </Link>
+              </a>
             </button>
             <button className="text-sm lg:text-lg bg-white text-center py-2 w-[12rem] lg:mt-4 lg:w-[15rem] rounded-sm text-darkblue border-darkblue border hover:shadow-lg">
               <a href="https://youtube.com/gramoly" target="_blank" rel="noreferrer" >
