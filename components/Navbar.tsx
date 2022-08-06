@@ -113,11 +113,11 @@ const Navbar = () => {
                 events
               </span>
             </Link>
-            <Link href="/challenges">
+            <a href="https://challenges.gramoly.org/" target="_blank" rel="noreferrer" >
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 challenges
               </span>
-            </Link>
+            </a>
             <Link href="/about">
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
                 about

@@ -140,7 +140,7 @@ const body = () => {
             For students.
           </h4>
           <p className="text-darkblue opacity-80 text-center md:text-left text-sm md:w-[400px] lg:text-lg lg:w-[600px]">
-            GRAM is collective of curious and innovative students who strive to
+            GRAM is a collective of curious and innovative students who strive to
             make an impact in the field of education, and change the system for
             the better by helping young minds explore various STEM fields. We
             dream of building a community of all those have a shared love for
@@ -249,6 +249,12 @@ const body = () => {
         </div>
         <div className="w-52 md:w-[20rem] lg:w-[27rem] pt-3">
           <Target />
+        </div>
+      </div>
+
+      <div className="flex h-fit py-8 px-2 mb-5 align-middle justify-center bg-lightblue">
+        <div className="flex">
+            <h3 className="text-darkblue font-semibold">Numbers tell our story</h3>
         </div>
       </div>
     </>

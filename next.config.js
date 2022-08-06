@@ -11,7 +11,17 @@ const nextConfig = {
     });
 
     return config;
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/discord',
+        destination: 'https://discord.com/invite/Me8aJQhkc3/',
+        permanent: true,
+      },
+    ]
+  },
+
 }
 
 module.exports = nextConfig
