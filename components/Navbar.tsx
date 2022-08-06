@@ -108,9 +108,9 @@ const Navbar = () => {
                 youtube
               </span>
             </a>
-            <Link href="/events">
+            <Link href="/timeline">
               <span className="lg:inline-flex lg:w-auto cursor-pointer mx-3 rounded text-lg text-darkblue  font-semibold items-center justify-center hover:opacity-60 underline-offset-1">
-                events
+              timeline
               </span>
             </Link>
             <a href="https://challenges.gramoly.org/" target="_blank" rel="noreferrer" >

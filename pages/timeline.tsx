@@ -45,7 +45,7 @@ const items = [
 ];
 
 
-const events = () => {
+const timeline = () => {
   return (
     <>
       <h3 className="pt-16 flex w-full text-darkblue align-center items-center justify-center">
@@ -93,4 +93,4 @@ const events = () => {
   );
 };
 
-export default events;
+export default timeline;
