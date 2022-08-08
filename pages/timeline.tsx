@@ -41,9 +41,37 @@ const items = [
     cardSubtitle:
       "FIZIKA is a 3 round based free annual competition meant for individuals at any stage that consists of the creative application of high school physics concepts. We aim to introduce learners to some unconventional applications of theory, hone up their problem-solving aptitude and expand their critical thinking, which in turn will make them better problem solvers. Furthermore, We love sharing some exciting problems with learners. More info at fizika.gramoly.org",
   },
-  
-];
 
+  {
+    title: "July 2021",
+    cardTitle: "Launched GRAMOLY's Forum",
+    url: "https://www.youtube.com/shorts/TaNOsJP0e-M",
+    cardSubtitle:
+      "We wanted to make a platform where not only a newcomer to learned can openly discuss what they like but also, fight the social media addiction among youth by offering them a platform where they can ask doubts without being on social media. It was driven by our observation that several students can't uninstall social media because that's where they ask doubts. Here you can ask any questions, any doubt, or discuss freely anything related to STEM and socialize with other like-minded people.",
+  },
+
+  {
+    title: "June 2021",
+    cardTitle: "GRAM Chess Tourney",
+    url: "https://gramoly.org/discord",
+    cardSubtitle:
+      "Organized first ever GRAM Chess Tourney in our discord server. Join GRAM Discord for more such amazing events.",
+  },
+  {
+    title: "June 2021",
+    cardTitle: "Physics BLITZ",
+    url: "https://gramoly.org/discord",
+    cardSubtitle:
+      "An competition like Science Bowl, happened in our discord server in Jun 2021.",
+  },
+  {
+    title: "June 2021",
+    cardTitle: "Decoding Linear Algebra Series",
+    url: "https://www.youtube.com/playlist?list=PL70VV8-MvPJB52CiUy4OymNcQmHKJV1f7",
+    cardSubtitle:
+      "A series by Kowshiq Kattamuri on linear algebra. This series is a great one for anyone who is interested in linear algebra and wants to learn more about it.",
+  },
+];
 
 const timeline = () => {
   return (
@@ -73,19 +101,73 @@ const timeline = () => {
           }}
         >
           <div>
-          <iframe width="400" height="225" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJAdex1C51G33GXGWg2KUC0r" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJAdex1C51G33GXGWg2KUC0r"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
           <div>
-          <iframe width="400" height="225"  src="https://www.youtube.com/embed/AxuDOWpD60A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/AxuDOWpD60A"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
           <div>
-          <iframe width="400" height="225" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJB8VmrYafP5mk400-mZk7mJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJB8VmrYafP5mk400-mZk7mJ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
           <div>
-          <iframe width="400" height="225" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJBQRpvpp4NkWj1hNakk5aNI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJBQRpvpp4NkWj1hNakk5aNI"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
           <div>
-          <iframe width="400" height="225" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJCt8EqeQLJQTKqUG1TLnsPW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJCt8EqeQLJQTKqUG1TLnsPW"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJB52CiUy4OymNcQmHKJV1f7"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </Chrono>
       </div>
