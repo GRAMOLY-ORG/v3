@@ -19,6 +19,11 @@ const nextConfig = {
         destination: 'https://discord.com/invite/Me8aJQhkc3/',
         permanent: true,
       },
+      {
+        source: '/challenges',
+        destination: 'https://challenges.gramoly.org/',
+        permanent: true,
+      },
     ]
   },
 

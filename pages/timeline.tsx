@@ -3,19 +3,46 @@ import { Chrono } from "react-chrono";
 
 const items = [
   {
+    title: "February 2022",
+    cardTitle: "Careers in Biology & Biology Olympiads | GRAMOLY's Round Tables Episode 2",
+    url: "https://www.youtube.com/watch?v=40bhBCNxJcA",
+    cardSubtitle:
+      "Here we present you the second episode of GRAMOLY's Round Tables - Careers in Biology & Biology Olympiads, Huge thanks to Abhishek Roy and Sainavaneet Mukund for arranging and hosting the webinar.",
+  },
+  {
+    title: "February 2022",
+    cardTitle: "Gospels with The Experts | Ep-3 : Chemistry Olympiad | Ft : Krishna Bhardwaj",
+    url: "https://www.youtube.com/watch?v=sm-moP3pmus",
+    cardSubtitle:
+      "Are you a Chemistry olympiad aspirant who is passionate about chemistry? Do you have a lot of unanswered questions regarding the preparation of the chemistry olympiad?  Here we bring you an amazing webinar that will answer most of your queries.We are pleased to inform you that we shall be hosting a Chemistry Olympiad webinar which will be the episode 3 of GRAM Gospels With The Experts Series. Our guest will be Krishna Bharadwaj who is currently a UG student at IISC and has attended Chemistry OCSC Camp. The event will be live on GRAMOLY's YouTube channel on 6th March, Sunday at 6pm IST. Do join us live to give your preparation a final boost! Make sure to put your questions in the live chat box as we shall be taking the audience questions at the end. A round of applause and Thanks to our host Asutosh Rath. Without him, this event wouldn't have been possible.",
+  },
+  {
+    title: "February 2022",
+    cardTitle: "Launched challenges.gramoly.org",
+    url: "https://www.youtube.com/watch?v=1DsIPOddYiQ",
+    cardSubtitle:
+      "GRAMOLY Challenges is a modern concept, a new platform, and a new route of doing POTD. The challenges brought to you by GRAMOLY are daily problems of STEM assigned to you by the team which consist of live and interactive rankings, dynamic leaderboards, and points. It will help you become better at problem-solving in a really fun and gamified way. Visit the website @challenges.gramoly.org",
+  },
+  {
     title: "December 2021",
     cardTitle: "Lagrangian Mechanics for High schoolers",
     url: "https://youtube.com/playlist?list=PL70VV8-MvPJAdex1C51G33GXGWg2KUC0r",
     cardSubtitle:
       "In this series, Abhiram taught the various concepts of Lagrangian mechanics on a conceptual level which will be valuable in problem-solving. It is really useful and informative for physics enthusiasts around the world.",
   },
-
+  {
+    title: "December 2021",
+    cardTitle: "Positional Astronomy for Astronomy Olympiads",
+    url: "https://youtube.com/playlist?list=PL70VV8-MvPJAdex1C51G33GXGWg2KUC0r",
+    cardSubtitle:
+      "In this series, Faraz taught the various concepts of Positional Astronomy on a conceptual level which will be valuable in problem-solving in Astronomy and Astrophysics Olympiads.",
+  },
   {
     title: "October 2021",
     cardTitle: "FIZIKA Guest Talk | Feat. Dr. Bernard Ricardo",
     url: "https://www.youtube.com/watch?v=AxuDOWpD60A",
     cardSubtitle:
-      "We discussed numerous exciting ideas from what is physics to why should one even learn it to the prep and the significance of Olympians with an internationally celebrated figure, a sensational author, and student's beloved, Dr. Bernard Ricardo. For the uninitiated, Dr Ricardo is a senior consultant in physics Physics Senior Consultant and an IPhO coach for the past 16 years!. He is one of the authors of Competitive Physics. He is also highly decorated with awards from Singapore's Ministry of Education, Institute of Physics and National Institute of Education. As a  passionate educator, he now seeks to inspire students to learn more about physics and fall in love with it. ",
+      "We discussed numerous exciting ideas from what is physics to why should one even learn it to the prep and the significance of Olympians with an internationally celebrated figure, a sensational author, and student's beloved, Dr. Bernard Ricardo. For the uninitiated, Dr Ricardo is a Senior Physics Consultant and an IPhO coach for the past 16 years!. He is one of the authors of Competitive Physics. He is also highly decorated with awards from Singapore's Ministry of Education, Institute of Physics and National Institute of Education. As a  passionate educator, he now seeks to inspire students to learn more about physics and fall in love with it.",
   },
 
   {
@@ -104,7 +131,51 @@ const timeline = () => {
             <iframe
               width="400"
               height="225"
+              src="https://www.youtube.com/embed/40bhBCNxJcA"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/sm-moP3pmus"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/1DsIPOddYiQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
               src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJAdex1C51G33GXGWg2KUC0r"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+                    <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/bLG7mSmD4w0"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
