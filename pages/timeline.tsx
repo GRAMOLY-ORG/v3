@@ -99,6 +99,13 @@ const items = [
       "A series by Kowshiq Kattamuri on linear algebra. This series is a great one for anyone who is interested in linear algebra and wants to learn more about it.",
   },
   {
+    title: "June 2021",
+    cardTitle: "Ep-1 Roots in Pure Science | GRAM's Round Tables | GRAMOLY",
+    url: "https://www.youtube.com/watch?v=pjGXLBHS_8M",
+    cardSubtitle:
+      "We are presenting to you a new series- GRAM's Round Tables, this is the first Episode of GRAM's Round Tables - Roots in Pure Science. Thank you Srijon Sarkar for hosting this session.Guests in this session are Arka Sinha - IISc Dropout, Undergraduate Student at ISI Kolkata; Chirag Falor- AIR 1 JEE Advanced 2020, IOAA Gold Medalist and Undergraduate Student at MIT; Gaurav Goel- Undergraduate Student at Harvard University; Hemansh Shah- IOAA Silver Medalist, Undergraduate Student at IISc Bangalore; Heramb Podar- Undergraduate Student at IIT Roorkee; Nisarg Chadha- AIR 16 JEE Advanced 2020, Undergraduate Student at IISc Bangalore; Pranjal Jain- Undergraduate Math Student at IISER Pune",
+  },
+  {
     title: "May 2021",
     cardTitle: "GRAMOLY x STEM Horizons Olympiad Camp",
     url: "https://www.youtube.com/watch?v=AWZkkjX5_dQ",
@@ -111,6 +118,16 @@ const items = [
     url: "https://www.youtube.com/watch?v=MPMiLjCzJ8o",
     cardSubtitle:
       "GRAM CALCULATION CHAMPIONSHIP (GCC) is a tournament which would be conducted on AOPS - FTW. It will have basic computational questions of mathematics. Answer fast and get more points! Could you be the winner?",
+  },
+  {
+    title: "May 2021",
+    cardTitle: "GRAMOLY REVAMPED",
+    url: "https://www.youtube.com/watch?v=pxeQ5rvHlHM",
+    cardSubtitle:
+      "Imagine a world where each child gets food and education. Imagine a world where everyone gets equal opportunity. Imagine a world where everyone lives life in peace. We and innumerable people are living in this dream for years unknown and working to make it a reality. \
+      It's been hard days and nights. We made mistakes, arguably a lot of, but we repent, adapt, improvise and Improve. That's what makes us who we are. We are not a mere organization,  our dreams and goals are much beyond GRAMOLY. \
+      We are a dream seen by countless men, we are emotions of countless children, we are the struggle worn by countless girls. That gives us true strength to face challenges, Improve ourselves, and fight for the cause. \
+      We hope someday you will join us and we would live this dream together --- the time has come when you shall redeem the grace bestowed upon you, lend a hand to dying humanity, and hope for a brighter tomorrow.",
   },
   {
     title: "April 2021",
@@ -299,7 +316,17 @@ const timeline = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div></div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/TaNOsJP0e-M"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
           <div></div>
           <div></div>
           <div>
@@ -307,6 +334,17 @@ const timeline = () => {
               width="400"
               height="225"
               src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJB52CiUy4OymNcQmHKJV1f7"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/pjGXLBHS_8M"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -338,6 +376,17 @@ const timeline = () => {
               width="400"
               height="225"
               src="https://www.youtube.com/embed/MPMiLjCzJ8o"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/pxeQ5rvHlHM"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
