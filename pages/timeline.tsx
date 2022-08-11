@@ -98,6 +98,79 @@ const items = [
     cardSubtitle:
       "A series by Kowshiq Kattamuri on linear algebra. This series is a great one for anyone who is interested in linear algebra and wants to learn more about it.",
   },
+  {
+    title: "May 2021",
+    cardTitle: "GRAMOLY x STEM Horizons Olympiad Camp",
+    url: "https://www.youtube.com/watch?v=AWZkkjX5_dQ",
+    cardSubtitle:
+      "GSHOC was an entirely free, intensive, seven-week Mathematics Olympiad program for students around the globe, ran from 20 June to 30 July 2021. This was conducted by joint effort of STEM Horizons and GRAMOLY, It was designed for middle and high school math students who wish to hone their problem-solving skills and advance their mathematics skills in general. This Olympiad Mathematics training course helped enhancing performance on olympiads/contests and other Pre-Olympiad and Olympiad exams such as AMC10/12, AIME, PRMO.",
+  },
+  {
+    title: "May 2021",
+    cardTitle: "GRAM Calculation Championship",
+    url: "https://www.youtube.com/watch?v=MPMiLjCzJ8o",
+    cardSubtitle:
+      "GRAM CALCULATION CHAMPIONSHIP (GCC) is a tournament which would be conducted on AOPS - FTW. It will have basic computational questions of mathematics. Answer fast and get more points! Could you be the winner?",
+  },
+  {
+    title: "April 2021",
+    cardTitle: "1000 subscribers completed on YouTube",
+    url: "https://www.youtube.com/watch?v=-5_NU1JbCr0",
+  },
+  {
+    title: "April 2021",
+    cardTitle: "A resolution to Maths ft. Pranjal Jain | Unconventional Reflections #2",
+    url: "https://www.youtube.com/watch?v=XicGUK2XAnQ",
+    cardSubtitle: "Passionate about mathematics? Want to make it your career? Want to explore the beauty of mathematics? Then this is for you!! GRAM brings to you an intriguing episode with Pranjal Jain, an Undergraduate student of mathematics at IISER Pune In this conversation, Pranjal talks about how he overcame all the hurdles and his story of devoting his life to maths and also inspires us to do the same. In this conversation hosted by Samyak Sheersh, Pranjal gives us an insight into \"Mathematics as a Career\" and the massive opportunities that lie up there.",
+  },
+  {
+    title: "April 2021",
+    cardTitle: "Bills v/s Balls ft. Chitraang Murdia | Unconventional Reflections #1",
+    url: "https://www.youtube.com/watch?v=XicGUK2XAnQ",
+    cardSubtitle: "Passionate about mathematics? Want to make it your career? Want to explore the beauty of mathematics? Then this is for you!! GRAM brings to you an intriguing episode with Pranjal Jain, an Undergraduate student of mathematics at IISER Pune In this conversation, Pranjal talks about how he overcame all the hurdles and his story of devoting his life to maths and also inspires us to do the same. In this conversation hosted by Samyak Sheersh, Pranjal gives us an insight into \"Mathematics as a Career\" and the massive opportunities that lie up there.",
+  },
+  {
+    title: "March 2021",
+    cardTitle: "Introducing Real Analysis for High School Math Students",
+    url: "https://www.youtube.com/watch?v=8tOFC9hTkZY&list=PL70VV8-MvPJC_cnQG2x0X10JS_L3gLAYF",
+    cardSubtitle: "Passionate about physics? Want to make it your career? Want to explore the mysteries of Physics? Then this is for you! GRAM brings to you an intriguing episode with Chitraang Murdia, UC Berkley Ph.D. Student MIT Graduate, IPhO Gold Medallist, IIT JEE 2014 AIR 1.In this conversation, Chitraang talks about how he overcame all the hurdles and his story of devoting his life to physics and also inspires us to do the same. In this conversation hosted by Shreyash Bakare, Chitraang gives us an insight into \"Physics as a Career\" and the massive opportunities that lie up there.",
+  },
+  {
+    title: "March 2021",
+    cardTitle: "Tensor | A Course on Tensor and Differential Geometry",
+    url: "https://www.youtube.com/watch?v=8tOFC9hTkZY&list=PL70VV8-MvPJC_cnQG2x0X10JS_L3gLAYF",
+    cardSubtitle: "Tensor is A Course on Tensor and Differential Geometry by Paras Sharma as known as NutanStrek.",
+  },
+  {
+    title: "March 2021",
+    cardTitle: "Combinatorics Problems Series",
+    url: "https://www.youtube.com/watch?v=BZcsIQb5MAk&list=PL70VV8-MvPJCIDLKG9mksztSfxMR4nfBM",
+    cardSubtitle: "Our Volunteers on GRAMOLY are coming up with a new series of combinatorics problems on GRAMOLY's official YouTube channel, where they will be solving some amazing problems of combinatorics. It will be really helpful and informative for mathematics Olympiad aspirants.  this series is launched to give a helping hand to aspirants of mathematical Olympiads. It will also help the aspirants to get exposure to some really good combinatorics problems. This would be conducted by, Yashashwini, An IIT KGP Alumni",
+  },
+  {
+    title: "February 2021",
+    cardTitle: "Maths Olympiad Problem Series",
+    url: "https://www.youtube.com/watch?v=41LxmXDpyxs&list=PL70VV8-MvPJC-iW_YMPDuSg8vNZ2Kj9gk",
+    cardSubtitle: "Hello math enthusiasts, In this session, we are going to discuss a few of the handpicked geometry problems from various math contests. Hope you like them, consider subscribing and sharing them.",
+  },
+  {
+    title: "February 2021",
+    cardTitle: "Gospels with The Experts | Ep-1 : Physics Olympiad | Ft : Nitin Sachan",
+    url: "https://www.youtube.com/watch?v=G-3ISLwYjnM",
+    cardSubtitle: "Are you a physics olympiad aspirant who is passionate about physics? Do you have a lot of unanswered questions regarding the preparation of the physics olympiad?  Here we bring you an amazing webinar that will answer most of your queries.\"𝗚𝗼𝘀𝗽𝗲𝗹𝘀 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗘𝘅𝗽𝗲𝗿𝘁𝘀\" is an initiative by GRAM, where we invite knowledgeable people from their fields to share strategy, tips, and their \"gospels\" regarding a particular exam. Nitin Sachan Sir, IIT-M alumni, the founder of INSP(Indian School of Physics), and a widely loved teacher who has a passion for the subject. In this session, he shares strategy, tips and tricks, and his thoughts on the olympiad situation in India.",
+  },
+  {
+    title: "January 2021",
+    cardTitle: "IOQM KV Live Discussion",
+    url: "https://www.youtube.com/watch?v=mjGjx-DR9rg",
+    cardSubtitle: "Hello math enthusisats, In this session, volunteers of GRAM will be discussing IOQM KV 2021 Paper.",
+  },
+  {
+    title: "January 2021",
+    cardTitle: "GRAM Started",
+    url: "https://www.youtube.com/watch?v=bKrRq6-KEqc",
+    cardSubtitle: "GRAM is a non-profit and volunteer-based organization whose motive is to provide free education to underprivileged class of students and empower them to go for stem fields and we also stand for promoting women to make STEM career choices. We also aspire to spread awareness about non-routine Mathematics, astronomy, informatics, etc. Currently, We have a lot of plans to give handouts, problem sets, video lectures, etc. Our motive is to spread awareness and improve the perspective towards STEM from the grassroots. We plan to conduct teaching camps in future for students who don't have access to internet in order to revolutionize STEM.",
+  },
 ];
 
 const timeline = () => {
@@ -234,6 +307,148 @@ const timeline = () => {
               width="400"
               height="225"
               src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJB52CiUy4OymNcQmHKJV1f7"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="flex flex-col gap-2">
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/AWZkkjX5_dQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+              <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLcoKNKLyrOz3CY37fLEqwxl3_ezKL85hi"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/MPMiLjCzJ8o"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/-5_NU1JbCr0"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/XicGUK2XAnQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/Hkj16h3xBvk"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJC_cnQG2x0X10JS_L3gLAYF"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJA-om0Zjpou3kxEhkQuFvVg"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJCIDLKG9mksztSfxMR4nfBM"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL70VV8-MvPJC-iW_YMPDuSg8vNZ2Kj9gk"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/G-3ISLwYjnM"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/mjGjx-DR9rg"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="400"
+              height="225"
+              src="https://www.youtube.com/embed/bKrRq6-KEqc"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
