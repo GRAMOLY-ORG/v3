@@ -1,5 +1,6 @@
 import React from "react";
 import { Chrono } from "react-chrono";
+import Head from "next/head";
 
 const items = [
   {
@@ -193,6 +194,9 @@ const items = [
 const timeline = () => {
   return (
     <>
+        <Head>
+        <title>Timeline - GRAMOLY</title>
+      </Head>
       <h3 className="pt-16 flex w-full text-darkblue align-center items-center justify-center">
         Timeline
       </h3>

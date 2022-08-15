@@ -251,12 +251,6 @@ const body = () => {
           <Target />
         </div>
       </div>
-
-      <div className="flex h-fit py-8 px-2 mb-5 align-middle justify-center bg-lightblue">
-        <div className="flex">
-            <h3 className="text-darkblue font-semibold">Numbers tell our story</h3>
-        </div>
-      </div>
     </>
   );
 };
