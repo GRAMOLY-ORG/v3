@@ -24,6 +24,7 @@ export const Linkedin = (props: link) => {
       className="opacity-70 hover:opacity-100"
       href={`https://linkedin.com/in/${props.lnkdn}`}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Icons name="Linkedin" size="15" color="#022b3a" />
     </a>
@@ -42,6 +43,7 @@ export const Twitter = (props: twitter) => {
       className="opacity-70 hover:opacity-100 "
       href={`https://twitter.com/${props.twtr}`}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Icons name="Twitter" size="15" color="#022b3a" />
     </a>
@@ -60,6 +62,7 @@ export const Instagram = (props: instagram) => {
       className="opacity-70 hover:opacity-100  "
       href={`https://instgram.com/${props.insta}`}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Icons name="Instagram" size="15" color="#022b3a" />
     </a>
@@ -78,6 +81,7 @@ export const Github = (props: github) => {
       className="opacity-70 hover:opacity-100 "
       href={`https://github.com/${props.gh}`}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Icons name="GitHub" size="15" color="#022b3a" />
     </a>
@@ -95,12 +99,12 @@ export const Globe = (props: globe) => {
       className="opacity-70 hover:opacity-100 "
       href={`${props.site}`}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Icons name="Globe" size="15" color="#022b3a" />
     </a>
   );
 };
-
 
 // YouTube
 
@@ -114,6 +118,7 @@ export const Youtube = (props: youtube) => {
       className="opacity-70 hover:opacity-100 "
       href={`https://youtube.com/c/${props.yt}`}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Icons name="Youtube" size="15" color="#022b3a" />
     </a>
