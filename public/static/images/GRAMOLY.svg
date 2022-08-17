@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128mm"
+   height="128mm"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="GRAMOLY.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="211mm"
+     inkscape:zoom="0.78363065"
+     inkscape:cx="306.90479"
+     inkscape:cy="338.80757"
+     inkscape:window-width="1400"
+     inkscape:window-height="796"
+     inkscape:window-x="20"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient12685">
+      <stop
+         style="stop-color:#54c1ff;stop-opacity:1"
+         offset="0"
+         id="stop12681" />
+      <stop
+         style="stop-color:#73fcea;stop-opacity:1"
+         offset="1"
+         id="stop12683" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12685"
+       id="linearGradient12687"
+       x1="63.65115"
+       y1="31.181328"
+       x2="63.345886"
+       y2="67.68222"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.77225917,1.7855259)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g33393"
+       transform="matrix(1.9030739,0,0,1.9030684,-55.478915,-3.2182761)"
+       inkscape:export-filename="/home/theblapse/Pictures/GRAMOLY/150x.png"
+       inkscape:export-xdpi="29.765669"
+       inkscape:export-ydpi="29.765669">
+      <circle
+         style="fill:#022b3a;fill-opacity:1;stroke:#73fcea;stroke-width:1.62393;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path846"
+         cx="62.882835"
+         cy="35.654453"
+         r="32.817886" />
+      <rect
+         style="fill:url(#linearGradient12687);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.60027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect8176-0-2"
+         height="29.749884"
+         x="60.542694"
+         y="28.8528"
+         width="3.7880001" />
+      <path
+         id="path2259"
+         style="fill:#54c1ff;fill-opacity:1;stroke:none;stroke-width:0.708837"
+         d="m 55.699474,12.706223 c -6.688426,2.81105 -11.028445,9.347005 -11.039138,16.624647 6.4e-5,10.063902 8.158459,18.292837 18.222361,18.379918 10.064027,0.08713 18.222602,-8.00078 18.222637,-18.064806 -0.01315,-0.264725 -0.03206,-0.529181 -0.05675,-0.793181 H 80.771851 77.355352 64.330691 v 4.106165 h 12.777651 c -1.414316,6.579894 -7.271839,11.472233 -14.286451,11.411542 -8.071333,-0.06991 -14.614354,-6.66968 -14.614266,-14.741011 0.01889,-5.825354 3.495734,-11.053206 8.84877,-13.305179 z"
+         sodipodi:nodetypes="cccccccccccccc" />
+      <rect
+         style="fill:#54c1ff;fill-opacity:1;fill-rule:evenodd;stroke-width:0;stroke-linejoin:round;paint-order:markers fill stroke"
+         id="rect22370"
+         width="16.565649"
+         height="4.1061659"
+         x="60.54269"
+         y="28.852802" />
+    </g>
+  </g>
+</svg>
