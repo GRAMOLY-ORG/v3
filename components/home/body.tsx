@@ -82,11 +82,19 @@ const body = () => {
             like-minded peers.
           </h4>
           <p className="text-darkblue opacity-80 text-center md:text-left md:w-[400px] text-sm lg:text-lg lg:w-[600px]">
-            GRAMOLY Discord is a community of over 2000 STEM Enthusiasts. Join and get access to contests, rewards, resources, guidance from subject-experts and many great experiences. find and meet people who share your creativity and passion for all STEM subjects, have fun and build your network with us.
-
+            GRAMOLY Discord is a community of over 2000 STEM Enthusiasts. Join
+            and get access to contests, rewards, resources, guidance from
+            subject-experts and many great experiences. find and meet people who
+            share your creativity and passion for all STEM subjects, have fun
+            and build your network with us.
           </p>
           <div className="flex flex-col md:flex-row gap-2 text-sm lg:text-lg text-darkblue self-center md:self-start">
-            <a href="https://gramoly.org/discord" className="cursor-pointer" target="_blank" rel="noreferrer">
+            <a
+              href="https://gramoly.org/discord"
+              className="cursor-pointer"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="flex flex-row align-baseline gap-3 opacity-80 cursor-pointer">
                 <span className="flex flex-inline self-baseline hover:pr-2">
                   Join GRAM Discord.
@@ -140,10 +148,10 @@ const body = () => {
             For students.
           </h4>
           <p className="text-darkblue opacity-80 text-center md:text-left text-sm md:w-[400px] lg:text-lg lg:w-[600px]">
-            GRAM is a collective of curious and innovative students who strive to
-            make an impact in the field of education, and change the system for
-            the better by helping young minds explore various STEM fields. We
-            dream of building a community of all those have a shared love for
+            GRAM is a collective of curious and innovative students who strive
+            to make an impact in the field of education, and change the system
+            for the better by helping young minds explore various STEM fields.
+            We dream of building a community of all those have a shared love for
             sciences, and rally for this cause.
           </p>
           <div className="flex flex-col md:flex-row gap-2 text-sm lg:text-lg text-darkblue self-center md:self-start">

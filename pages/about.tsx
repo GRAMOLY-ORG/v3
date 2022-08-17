@@ -9,7 +9,7 @@ import {
   Youtube,
 } from "../components/about/socials";
 import { Link } from "react-feather";
-
+import Heart from "../public/images/heart.svg";
 const about = () => {
   return (
     <>
@@ -43,7 +43,50 @@ const about = () => {
           content="GRAM is a not-for-profit and volunteer-based initiative to raise awareness towards various STEM fields. We Intend to do this through various events like podcasts, webinars, and contests. We are known for our vast community of over achieving students and phenomenal guest speakers."
         />
       </Head>
-      <div className="grid grid-cols-1 shrink sm:grid-cols-3 lg:grid-cols-5 gap-x-3 gap-y-10  align-center align-middle  mx-2  pt-20 pb-16">
+      <div
+        className="flex flex-col h-screen align-middle justify-center mx-2 pt-5 md:pt-16 items-center
+                           md:flex-row md:justify-evenly"
+      >
+        <div className="flex flex-col gap-y-3 md:justify-start md:relative ">
+          <p className="text-darkblue opacity-80 text-center md:text-left md:w-[400px] text-sm lg:text-lg lg:w-[600px]">
+          Imagine a world where each child gets food and education. Imagine a
+          world where everyone gets equal opportunity. Imagine a world where
+          everyone lives life in peace. We and innumerable people are living in
+          this dream for years unknown and working to make it a reality.
+          <br />
+          It's been hard days and nights. We made mistakes, arguably a lot of,
+          but we repent, adapt, improvise and Improve. That's what makes us who
+          we are. We are not a mere organization, our dreams and goals are much
+          beyond GRAMOLY.
+          <br />
+          We are a dream seen by countless men, we are emotions of countless
+          children, we are the struggle worn by countless girls. That gives us
+          true strength to face challenges, Improve ourselves, and fight for the
+          cause.
+          <br />
+          We hope someday you will join us and we would live this dream
+          together—the time has come when you shall redeem the grace bestowed
+          upon you, lend a hand to dying humanity, and hope for a brighter
+          tomorrow.
+          </p>
+        </div>
+        <div className="w-52 md:w-[20rem] lg:w-[27rem] pt-3">
+          <Heart />
+        </div>
+      </div>
+      <div className="flex flex-col mx-2 md:mx-16  pb-10 align-center items-center text-center gap-4 flex-wrap">
+        <h4 className="text-[1.8rem] text-center text-darkblue font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+          Meet the team
+        </h4>
+        <p className="text-darkblue opacity-80 text-center text-sm lg:text-lg">
+          GRAM is a collective of curious and innovative students who strive to
+          make an impact in the field of education, and change the system for
+          the better by helping young minds explore various STEM fields. We
+          dream of building a community of all those have a shared love for
+          sciences, and rally for this cause. <br />
+        </p>
+      </div>
+      <div className="grid grid-cols-1 shrink sm:grid-cols-3 lg:grid-cols-5 gap-x-3 gap-y-10  align-center align-middle mx-2  pb-16">
         <Member
           img="/images/avatars/ilm.svg"
           name="ILM"
@@ -175,15 +218,8 @@ const about = () => {
           name="Karan Upreti"
           role="Physics"
         />
-        <Member
-          img="/images/avatars/4.svg"
-          name="Jyothsna"
-          role="Physics"
-        />
-        <Member 
-        img="/images/avatars/5.svg" 
-        name="Archit"
-        role="Physics" />
+        <Member img="/images/avatars/4.svg" name="Jyothsna" role="Physics" />
+        <Member img="/images/avatars/5.svg" name="Archit" role="Physics" />
       </div>
     </>
   );
