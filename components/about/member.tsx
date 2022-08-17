@@ -1,12 +1,17 @@
+import React from "react";
 import { NextPage } from "next";
+
+
 
 interface MemberProps {
   img: string;
   name: string;
   role: string;
+  children?: React.ReactNode;
+
 }
 
-export const Member: NextPage<MemberProps> = ({img, name, role}) => {
+export const Member: NextPage<MemberProps> = ({img, name, role, children}) => {
 
   return (
     <>
@@ -17,6 +22,9 @@ export const Member: NextPage<MemberProps> = ({img, name, role}) => {
         />
         <span className="pt-4 text-center text-lg text-[#022b3a]">{name}</span>
         <span className="text-sm text-center text-[#022b3a] opacity-70">{role}</span>
+        <div className="flex flex-row pt-1 gap-3 align-middle items-center">
+        { children }
+        </div>
       </div>
     </>
   );
