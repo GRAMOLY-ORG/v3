@@ -187,8 +187,8 @@ const about = () => {
           name="Aditya Singh"
           role="Computer Science"
         >
-          <Globe site="https://adityasingh.xyz" />
           <Github gh="aditya-singh9/" />
+          <Linkedin lnkdn="aditya-singh9" />
         </Member>
         <Member
           img="/images/avatars/sainavneet.svg"
