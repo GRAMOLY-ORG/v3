@@ -148,8 +148,8 @@ const about = () => {
         <Member
           img="/images/avatars/abhiram.svg"
           name="Abhiram Cherukupalli"
-          role="Physics Head"
-        >
+          role="Physics Head">
+          <Linkedin lnkdn="abhiram-cherukupalli" />
           <Globe site="https://abhiramphysics.com/" />
           <Github gh="abhiram2006" />
           <Twitter twtr="abhiram_science" />
