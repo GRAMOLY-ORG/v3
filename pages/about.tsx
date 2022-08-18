@@ -54,8 +54,8 @@ const about = () => {
           everyone lives life in peace. We and innumerable people are living in
           this dream for years unknown and working to make it a reality.
           <br />
-          It's been hard days and nights. We made mistakes, arguably a lot of,
-          but we repent, adapt, improvise and Improve. That's what makes us who
+          It&apos;s been hard days and nights. We made mistakes, arguably a lot of,
+          but we repent, adapt, improvise and Improve. That&apos;s what makes us who
           we are. We are not a mere organization, our dreams and goals are much
           beyond GRAMOLY.
           <br />
