@@ -44,7 +44,7 @@ const about = () => {
         />
       </Head>
       <div
-        className="flex flex-col h-screen align-middle justify-center mx-2 pt-5 md:pt-16 items-center
+        className="flex flex-col-reverse h-full md:h-screen align-middle justify-center mx-2 pt-16 items-center
                            md:flex-row md:justify-evenly"
       >
         <div className="flex flex-col gap-y-3 md:justify-start md:relative ">
@@ -74,7 +74,7 @@ const about = () => {
           <Heart />
         </div>
       </div>
-      <div className="flex flex-col mx-2 md:mx-16  pb-10 align-center items-center text-center gap-4 flex-wrap">
+      <div className="flex flex-col mx-2 md:mx-16  pb-10 align-center items-center text-center gap-4 py-10 flex-wrap">
         <h4 className="text-[1.8rem] text-center text-darkblue font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
           Meet the team
         </h4>
@@ -113,6 +113,14 @@ const about = () => {
           name="Soumendu Jana"
           role="Administrator"
         />
+                <Member
+          img="/images/avatars/samar.svg"
+          name="Samar Yadav"
+          role="Administrator"
+        >
+          <Linkedin lnkdn="samar-yadav-91a4b5206" />
+          <Instagram insta="xtricity_" />
+        </Member>
         <Member
           img="/images/avatars/abhishek.svg"
           name="Abhishek Roy"
@@ -173,7 +181,9 @@ const about = () => {
           img="/images/avatars/om.svg"
           name="Om Badgujar"
           role="Graphics"
-        />
+        >
+          <Linkedin lnkdn="om-badgujar-355179230" />
+        </Member>
         <Member
           img="/images/avatars/prerak.svg"
           name="Prerak Contractor"
@@ -187,7 +197,7 @@ const about = () => {
           name="Aditya Singh"
           role="Computer Science"
         >
-          <Globe site="https://adityasingh.xyz" />
+          <Linkedin lnkdn="aditya-singh9" />
           <Github gh="aditya-singh9/" />
         </Member>
         <Member

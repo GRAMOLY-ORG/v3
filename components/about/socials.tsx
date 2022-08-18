@@ -60,7 +60,7 @@ export const Instagram = (props: instagram) => {
   return (
     <a
       className="opacity-70 hover:opacity-100  "
-      href={`https://instgram.com/${props.insta}`}
+      href={`https://instagram.com/${props.insta}`}
       target="_blank"
       rel="noopener noreferrer"
     >
