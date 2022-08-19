@@ -18,8 +18,8 @@ const about = () => {
         <title>About - GRAMOLY</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://gramoly.org/" rel="canonical" />
-        <meta name="theme-color" content="#10101A" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#10101A" />
+        <meta name="theme-color" content="#022b3a" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#022b3a" />
         <meta
           name="description"
           content="GRAM is a not-for-profit and volunteer-based initiative to raise awareness towards various STEM fields. We Intend to do this through various events like podcasts, webinars, and contests. We are known for our vast community of over achieving students and phenomenal guest speakers."
