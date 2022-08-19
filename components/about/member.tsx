@@ -29,3 +29,18 @@ export const Member: NextPage<MemberProps> = ({img, name, role, children}) => {
     </>
   );
 };
+
+interface FormerProps {
+  name: string;
+  subject: string;
+}
+export const FMember: NextPage<FormerProps> = ({name, subject}) => {
+  return (
+    <>
+      <div className="flex flex-col items-center align-middle">
+        <span className="pt-4 text-center text-lg text-[#022b3a]">{name}</span>
+        <span className="text-sm text-center text-[#022b3a] opacity-70">{subject}</span>
+      </div>
+    </>
+  );
+};
