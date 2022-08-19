@@ -7,25 +7,14 @@ import { useRouter } from 'next/router';
 import * as gtag from '../lib/analytics';
 
 
-const router = useRouter();
+export default function NextApp({
+  pageProps,
+  Component
+}: AppProps) {
+  useEffect(() => {
+      document.body.classList?.remove('loading');
+  }, []);
 
-useEffect(() => {
-    const handleRouteChange = (url: URL) => {
-        gtag.pageview(url);
-    };
-    router.events.on(
-        'routeChangeComplete',
-        handleRouteChange
-    );
-    return () => {
-        router.events.off(
-            'routeChangeComplete',
-            handleRouteChange
-        );
-    };
-}, [router.events]);
-
-export default function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
@@ -44,16 +33,14 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       };
   }, [router.events]);
 
-
   return (
-    <>
+      <>
       <Navbar />
       <Component {...pageProps} />
       <Footer />
-    </>
+      </>
   );
 }
-
 
 export function reportWebVitals(
   metric: NextWebVitalsMetric
@@ -85,5 +72,5 @@ export function reportWebVitals(
           break;
       default:
           break;
-  };
-};
+  }
+}
