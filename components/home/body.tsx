@@ -259,6 +259,61 @@ const body = () => {
           <Target />
         </div>
       </div>
+
+      <div className="flex flex-col justify-center align-middle gap-2 py-5 bg-lightblue">
+        <h4 className="text-[1.8rem] text-center text-darkblue font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+          Numbers
+        </h4>
+        <p className="text-darkblue opacity-80 text-center text-sm lg:text-lg ">
+          Which show our work
+        </p>
+      </div>
+      
+      <div className="flex flex-col md:flex-row gap-3 h-auto align-middle justify-center px-2 py-5 md:py-10 items-center  md:justify-evenly bg-lightblue">
+        <div className="flex flex-col align-middle text-center border-2  py-16 md:py-24 gap-3 rounded-sm shadow-md border-darkblue bg-white">
+          <h4 className="text-[1.8rem] text-center text-darkblue px-16 md:px-14 lg:px-[4.5rem] shrink font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+            3000+
+          </h4>
+          <p className="text-darkblue opacity-80 text-sm lg:text-lg">
+            Explorers, <br /> Exploring STEM with us.
+          </p>
+        </div>
+        <div className="flex flex-col align-middle text-center border-2  py-16 md:py-24 gap-3 rounded-sm shadow-md border-darkblue bg-white">
+          <h4 className="text-[1.8rem] text-center text-darkblue px-16 md:px-14 lg:px-[4.5rem] shrink font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+            &nbsp;200+&nbsp;
+          </h4>
+          <p className="text-darkblue opacity-80 text-sm lg:text-lg">
+            Volunteers, <br /> Spreading STEM with us.
+          </p>
+        </div>
+        <div className="flex flex-col align-middle text-center border-2  py-16 md:py-24 gap-3 rounded-sm shadow-md border-darkblue bg-white">
+          <h4 className="text-[1.8rem] text-center text-darkblue px-16 md:px-14 lg:px-[4.5rem] shrink font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+            330k+
+          </h4>
+          <p className="text-darkblue opacity-80 text-sm lg:text-lg">
+            Watch minutes, <br /> reached on YouTube.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-3 h-auto align-middle justify-center px-2 -my-2 md:py-10 items-center  md:justify-evenly bg-lightblue shrink">
+        <div className="flex flex-col align-middle text-center border-2  py-16 md:py-24 gap-3 rounded-sm shadow-md border-darkblue bg-white">
+          <h4 className="text-[1.8rem] text-center text-darkblue px-16 md:px-14 lg:px-[4.5rem] shrink font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+          &nbsp;20k+&nbsp;
+          </h4>
+          <p className="text-darkblue opacity-80 text-sm lg:text-lg">
+          Hours, <br /> of volunteering work.
+          </p>
+        </div>
+        <div className="flex flex-col align-middle text-center border-2  py-16 md:py-24 gap-3 rounded-sm shadow-md border-darkblue bg-white">
+          <h4 className="text-[1.8rem] text-center text-darkblue px-16 md:px-14 lg:px-[4.5rem] shrink font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+          &nbsp;&nbsp;56+&nbsp;&nbsp;
+          </h4>
+          <p className="text-darkblue opacity-80 text-sm lg:text-lg">
+            Countries, <br /> our members are from.
+          </p>
+        </div>
+      </div>
     </>
   );
 };
