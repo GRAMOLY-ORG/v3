@@ -417,7 +417,7 @@ const body = () => {
             Pranjal talks about how he overcame all the hurdles and his story of
             devoting his life to maths and also inspires us to do the same. In
             this conversation hosted by Samyak Sheersh, Pranjal gives us an
-            insight into "Mathematics as a Career" and the massive opportunities
+            insight into &quot;Mathematics as a Career&quot; and the massive opportunities
             that lie up there.
             <br />
             <a href="https://www.youtube.com/watch?v=XicGUK2XAnQ">
@@ -463,7 +463,7 @@ const body = () => {
       <div className="flex flex-col items-center p-2 justify-center text-center w-full mt-10 shrink">
         <h2 className="text-darkblue font-semibold">Roots in Pure Science</h2>
         <h1 className="text-darkblue opacity-80 pb-3">
-          GRAMOLY's Round Tables #1
+          GRAMOLY&apos;s Round Tables #1
         </h1>
         <ul className="text-darkblue opacity-80 pb-3">
           <li>
