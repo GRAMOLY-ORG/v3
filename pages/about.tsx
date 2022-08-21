@@ -277,8 +277,8 @@ const about = () => {
           role="Mathematics"
         />
       </div>
-      <div className="flex flex-col mx-2 md:mx-16  pb-10 align-center items-center text-center gap-4 py-10 flex-wrap team">
-        <h4 className="text-[1.8rem] text-center text-darkblue font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
+      <div className="flex flex-col px-2 md:mx-16  pb-10 align-center items-center text-center gap-4 py-10 flex-wrap team">
+        <h4 className="text-[1.5rem] text-center text-darkblue font-semibold md:text-[2.2rem] lg:text-[3.2rem]">
           Acknowledgements
         </h4>
         <p className="text-darkblue opacity-80 text-center text-sm lg:text-lg">
