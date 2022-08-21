@@ -595,7 +595,7 @@ const body = () => {
           <p className="opacity-80 text-sm lg:text-lg pb-1">
             A YouTube channel, run by Kowshiq Kattamuri, provides a wide range
             of solutions and explanations for mathematics problems. Kowshiq
-            taught linear algebra to High Schoolers on GRAMOLY's YouTube
+            taught linear algebra to High Schoolers on GRAMOLY&apos;s YouTube
             Channel.
           </p>
           <a
