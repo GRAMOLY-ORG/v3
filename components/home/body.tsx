@@ -340,7 +340,7 @@ const body = () => {
             </h1>
             <h1 className="text-darkblue opacity-80">With Chitraang Murdia</h1>
           </div>
-          <p className="text-darkblue opacity-80 text-sm">
+          <div className="text-darkblue opacity-80 text-sm">
             Chitraang Murdia is a Ph.D. Student of Physics at UC Berkeley. He
             did his undergrad in Physics and Math from MIT. He is an IIT Bombay
             CS Dropout. He is an IPhO Gold medalist and IIT JEE All India Rank
@@ -388,7 +388,7 @@ const body = () => {
                 </span>
               </div>
             </a>
-          </p>
+          </div>
         </div>
       </div>
 
@@ -407,7 +407,7 @@ const body = () => {
             </h1>
             <h1 className="text-darkblue opacity-80">With Pranjal Jain</h1>
           </div>
-          <p className="text-darkblue opacity-80 text-sm">
+          <div className="text-darkblue opacity-80 text-sm">
             Pranjal Jain is an Undergraduate student of mathematics at IISER
             Pune. He has authored 7 publications in his initial years of
             undergraduation itself.
@@ -456,7 +456,7 @@ const body = () => {
                 </span>
               </div>
             </a>
-          </p>
+          </div>
         </div>
       </div>
 
