@@ -24,6 +24,11 @@ const nextConfig = {
         destination: 'https://challenges.gramoly.org/',
         permanent: true,
       },
+      {
+        source: '/fizika',
+        destination: 'https://fizika.gramoly.org/',
+        permanent: true,
+      },
     ]
   },
 

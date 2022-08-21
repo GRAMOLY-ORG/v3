@@ -336,6 +336,7 @@ const about = () => {
         <FMember name="Piyush" subject="Mathematics" />
         <FMember name="Abhinav Singh" subject="Mathematics" />
         <FMember name="Abhishek Mishra" subject="Mathematics" />
+        <FMember name="Hemansh Shahz" subject="Physics" />
         <FMember name="Adithya A.S." subject="Moderation" />
         <FMember name="Rakshit Raj" subject="Physics" />
         <FMember name="Chirag Kar" subject="Physics" />
@@ -347,8 +348,10 @@ const about = () => {
         <FMember name="Krish Kumar" subject="Mathematics" />
         <FMember name="Chetan" subject="Mathematics" />
         <FMember name="Yash Mehta" subject="Mathematics" />
-
-
+      </div>
+      <div className="py-24 px-2 flex flex-col items-center text-center text-darkblue">
+        <h3>Contact us</h3>
+<h2>To contact us kindly mail at <a href="mailto:admin@gramoly.org" className="underline">admin@gramoly.org</a></h2>
       </div>
     </>
   );
