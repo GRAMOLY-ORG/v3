@@ -348,6 +348,7 @@ const about = () => {
         <FMember name="Krish Kumar" subject="Mathematics" />
         <FMember name="Chetan" subject="Mathematics" />
         <FMember name="Yash Mehta" subject="Mathematics" />
+        <FMember name="Tejas Rao" subject="Writing" />
       </div>
       <div className="py-24 px-2 flex flex-col items-center text-center text-darkblue">
         <h3>Contact us</h3>
