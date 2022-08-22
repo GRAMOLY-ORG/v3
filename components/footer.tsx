@@ -134,16 +134,25 @@ const footer = () => {
           </div>
           <div className="text-sm text-darkblue text-opacity-80 py-1">
             Website by&nbsp;
-            <a href="https://github.com/theblapse">
+            <a
+              href="https://github.com/theblapse"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="hover:opacity-80 text-darkblue hover:font-semibold text-opacity-100 cursor-pointer underline underline-offset-1">
                 @TheBlapse.
               </span>
             </a>
             &nbsp;Open source on&nbsp;
-            <a href="https://github.com/gramoly-org/v3">
+            <a
+              href="https://github.com/gramoly-org/v3"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="hover:opacity-80 text-darkblue text-opacity-100 hover:font-semibold cursor-pointer underline underline-offset-1">
-              GitHub
-              </span>.
+                GitHub
+              </span>
+              .
             </a>
           </div>
 
