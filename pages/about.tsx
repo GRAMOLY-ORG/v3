@@ -147,6 +147,11 @@ const about = () => {
           <Linkedin lnkdn="atharva-mahajan-5957b4212" />
         </Member>
         <Member
+          img="/images/avatars/atharva.svg"
+          name="Arav Bhojashettar"
+          role="Management"
+        />
+        <Member
           img="/images/avatars/prannay.svg"
           name="Prannaya Gupta"
           role="Computer Science Head"
