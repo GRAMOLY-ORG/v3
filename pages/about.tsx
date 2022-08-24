@@ -147,10 +147,12 @@ const about = () => {
           <Linkedin lnkdn="atharva-mahajan-5957b4212" />
         </Member>
         <Member
-          img="/images/avatars/atharva.svg"
+          img="/images/avatars/arav.svg"
           name="Arav Bhojashettar"
           role="Management"
-        />
+        >
+          <Linkedin lnkdn="arav-bhojashettar" />
+        </Member>
         <Member
           img="/images/avatars/prannay.svg"
           name="Prannaya Gupta"
