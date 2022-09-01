@@ -267,7 +267,7 @@ const about = () => {
         />
         <Member img="/images/avatars/4.svg" name="Jyothsna" role="Physics" />
         <Member img="/images/avatars/5.svg" name="Archit" role="Physics" />
-        <Member img="/images/avatars/6.svg" name="Atharv Mane" role="Physics" />
+        <Member img="/images/avatars/6.svg" name="Atharv Asaram Mane" role="Physics" />
         <Member img="/images/avatars/7.svg" name="Shivam" role="Mathematics" />
         <Member
           img="/images/avatars/1.svg"
