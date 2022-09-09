@@ -1,7 +1,7 @@
 import React from "react";
 import { Chrono } from "react-chrono";
 import Head from "next/head";
-
+import Navbar from "../components/Navbar";
 const items = [
   {
     title: "February 2022",
@@ -197,6 +197,8 @@ const timeline = () => {
         <Head>
         <title>Timeline - GRAMOLY</title>
       </Head>
+      <Navbar />
+
       <h3 className="pt-16 flex w-full text-darkblue align-center items-center justify-center">
         Timeline
       </h3>

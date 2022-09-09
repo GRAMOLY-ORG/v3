@@ -35,7 +35,6 @@ export default function NextApp({
 
   return (
       <>
-      <Navbar />
       <Component {...pageProps} />
       <Footer />
       </>

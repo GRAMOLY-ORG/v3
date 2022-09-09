@@ -2,7 +2,7 @@ import Landing from "../components/home/landing";
 import Body from "../components/home/body";
 import Discord from "../components/home/discord";
 import Head from "next/head";
-
+import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <>
@@ -37,6 +37,7 @@ export default function Home() {
           content="GRAM is a not-for-profit and volunteer-based initiative to raise awareness towards various STEM fields. We Intend to do this through various events like podcasts, webinars, and contests. We are known for our vast community of over achieving students and phenomenal guest speakers."
         />
       </Head>
+      <Navbar />
       <Landing />
       <Body />
     </>

@@ -10,7 +10,7 @@ import {
 } from "../components/about/socials";
 import Heart from "/public/images/heart.svg";
 import { Link } from "react-feather";
-
+import Navbar from "../components/Navbar";
 const about = () => {
   return (
     <>
@@ -44,6 +44,8 @@ const about = () => {
           content="GRAM is a not-for-profit and volunteer-based initiative to raise awareness towards various STEM fields. We Intend to do this through various events like podcasts, webinars, and contests. We are known for our vast community of over achieving students and phenomenal guest speakers."
         />
       </Head>
+      <Navbar />
+
       <div
         className="flex flex-col-reverse h-full align-middle justify-center mx-2 pt-16 items-center
                            md:flex-row md:justify-evenly"
