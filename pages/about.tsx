@@ -100,6 +100,7 @@ const about = () => {
           name="Badal Panchani"
           role="Administrator"
         >
+          <Globe site="https://TheBlapse.me" />
           <Github gh="theblapse" />
           <Twitter twtr="theblapse" />
         </Member>
@@ -133,13 +134,6 @@ const about = () => {
         >
           <Linkedin lnkdn="abhishek-roy-9b770317a" />
           <Instagram insta="abhishekamitroy" />
-        </Member>
-        <Member
-          img="/images/avatars/nimarjeet.svg"
-          name="Nimarjeet Bajwa"
-          role="Administrator"
-        >
-          <Linkedin lnkdn="nimarjeet-bajwa-820974238" />
         </Member>
         <Member
           img="/images/avatars/atharva.svg"
