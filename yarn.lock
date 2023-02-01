@@ -1142,10 +1142,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lexend@^4.5.10":
-  version "4.5.11"
-  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.5.11.tgz#06bd2ca96ba383bd54be94579e9b9721a57a4af9"
-  integrity sha512-4xjVmT7h+KWQntK86RXdrGAcX6sZbtbMRZndvPN/STLPfbhlgzgsx5K87wTu1dSPZbipdgGT5YHCtM0QX3qP5w==
+"@fontsource/lexend@^4.5.15":
+  version "4.5.15"
+  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.5.15.tgz#ee033b850224d05b665d6661bf8d32c950f166bb"
+  integrity sha512-6edLmDmte8pJWtQ1NIahcJq0iWlf6b0/JLwkd7WbDQ3C5tZWnxjvbP4RSklMv4MPzGjpuYuYnc+QANbjUws1oA==
 
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
